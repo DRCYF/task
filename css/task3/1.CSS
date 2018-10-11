@@ -1,7 +1,6 @@
 body {
     margin:0;
     background-color: #66cccc;
-   
 }
 .back {
     margin: 10px 0 20px 17px;
@@ -39,7 +38,6 @@ body {
 .logo_left img {
     height: 50px;
 }
-
 .prompt{
     font-size: 5px;
     color: #ffffff

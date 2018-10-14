@@ -1,0 +1,88 @@
+body {
+    margin:0;
+    background-color: #eff0f4;
+    }
+.first{
+    padding: 10px 0 10px 0;
+    background-color: #66cccc;
+}
+.enter{
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+.come{
+    float: left;
+    margin: 0 0 0 10px;
+}
+.off{
+    float: right;
+    margin: 0 10px 0 0;
+}
+.come a{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none; 
+}
+.off a{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration:none;
+}
+.id{
+    margin-top: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center
+}
+.code{
+    margin-top: 8px;
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center
+}
+.id img{
+    height: 25px;
+}
+.code img{
+    height: 25px;
+}
+.id input{
+    border: none;
+    border-left: 1px solid #eff0f4;
+    width: 90%;
+    height: 20px; 
+    margin: 0 0 0 5px;
+}
+.code input{
+    border: none;
+    border-left:1px solid #eff0f4;
+    width: 90%;
+    height: 20px;
+    margin: 0 0 0 5px;
+}
+.gg{
+    background-color: #66cccc;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.gg p{
+    color: #ffffff;
+    margin: 0；
+}
+.reset a{
+    float: right;
+    color:#66cccc;
+    font-size: 10px;
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+
+
+
+

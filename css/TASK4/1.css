@@ -51,23 +51,28 @@ body {
 }
 .id input{
     border: none;
-    border-left: 1px solid #eff0f4;
+    border-left: 2px solid #eff0f4;
     width: 90%;
     height: 20px; 
-    margin: 0 0 0 5px;
+    margin: 0 0 0 10px;
+    outline:none;
+    padding-left: 10px;
 }
 .code input{
     border: none;
-    border-left:1px solid #eff0f4;
+    border-left:2px solid #eff0f4;
     width: 90%;
     height: 20px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 10px;
+    outline:none;
+    padding-left: 10px;
 }
 .gg{
     background-color: #66cccc;
     text-align: center;
     width: 100%;
     margin-top: 10px;
+    border: none;
 }
 .gg p{
     color: #ffffff;

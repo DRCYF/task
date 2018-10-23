@@ -1,0 +1,6 @@
+Write.png, 94, 94, 0, 0
+task1.png, 42, 44, 0, 96
+task5.jpg, 42, 41, 44, 96
+task4.jpg, 46, 40, 44, 139
+task2.jpg, 24, 24, 96, 0
+task3.jpg, 19, 23, 96, 26

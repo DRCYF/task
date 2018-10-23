@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+}
+.gps {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #5fc0cd;
+    padding: 10px 0 0 30px;
+}
+.one i {
+    background: url(./images/task1.png)
+    no-repeat;
+    background-size: 22px 20px;
+    width: 42px;
+    height: 44px;
+    position: relative;
+    right: -25%;
+}
+.seek {    
+    height: 28px;
+    margin: -4px 0 0 0;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 6.5px;
+    margin-right: -.25rem;
+}
+.button {
+    background-color: #55a8b3; 
+    color: #ffffff; 
+    outline: none;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #55a8b3;
+    outline: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border: none; 
+    margin: 0;
+    border-bottom: 1px solid #afbac0;
+    background-color: #ffffff;
+}
+.menu1 {
+    width: 100% !important;
+    margin: 0 0 0 5px !important;
+    border: none !important;
+    color: #afbac0 !important;
+    border-right: 1px solid #afbac0 !important;
+    border-radius: 0 !important;
+}
+.menu2 {
+    border: none !important;
+    color: #afbac0 !important;
+    text-align: center  !important;
+    border-radius: 0 !important;    
+}
+.menu3 {
+    width: 100% !important;
+    margin: 0 10px 0 0!important;
+    border: none !important;    
+    color: #afbac0 !important;
+    border-left: 1px solid #afbac0 !important;
+    margin: 80px 0 0 0;
+    border-radius: 0 !important;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 71px 0 0 0;
+}
+.details-1 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #afbac0;
+}
+.details-2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #afbac0;
+    margin: 0 0 50px 0;
+}
+.rmb p {
+    position: relative;
+    right: 43px;
+    bottom: -30px;
+    color: red;
+}
+.rmb a {
+    position: relative;
+    right: -15px;
+    bottom: 7px;
+    font-size: 25px;
+    color: #5fc0cd;
+}
+.money p {
+    position: relative;
+    right: 43px;
+    bottom: -32px;
+    color: red;
+}
+.money a {
+    position: relative;
+    right: -15px;
+    bottom: 5px;
+    font-size: 25px;
+    color: #5fc0cd;
+}
+.sun {
+    background: url(./images/CssGaga.png)
+    no-repeat;
+    background-size: 72px;
+    background-position: -1px -33px;
+    padding: 0 0 0 26px;
+    color: #afbac0;
+}
+.site {
+    background: url(./images/CssGaga.png)
+    no-repeat;
+    background-size: 67px;
+    background-position: 1px -6px;
+    padding: 0 0 0 26px;
+    color: #afbac0;
+}
+.date h5 {
+    padding: 0 0 0 26px;
+}
+.time h5 {
+    padding: 0 0 0 26px;
+}
+.gg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background-color: #f8fafb;
+    padding: 0 0 0 0;
+}
+.base {
+    background: url(./images/task4.png)
+    no-repeat;
+    background-size: 28px;
+    color: #5fc0cd;
+    margin: 5px 0 0 0;
+    border: none;
+}
+.write {
+    border: none;
+    background-color: #ffffff;
+}
+.write li {
+    background: url(./images/Write.png)
+    no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0 50px 0 50px;
+}
+.my {
+    background: url(./images/task5.png)
+    no-repeat;
+    background-size: 28px;
+    margin: 5px 0 0 0;
+    border: none;
+}
+.base p{
+    position: relative;
+    color: #5fc0cd;
+    bottom: -19px;
+    left: -6px;
+}
+.my p{
+    position: relative;
+    bottom: -19px;
+    color: #5fc0cd;
+    right: 6px;
+}

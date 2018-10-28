@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 41px;
+    height: 50px;
     background-color: #29bde0;
 }
 .button {
@@ -28,11 +28,11 @@ body {
     width: 30px;
     height: 30px;
     outline: none;
+    background-size: 23px;
     border-style: none; 
 }
 .vote {
     text-align: center;
-    margin: 15px 0 3px 0;
     color: #ffffff;
 }
 .vin {
@@ -68,6 +68,7 @@ body {
     color: #ffffff;
 }
 .analyze {
+    margin: 10px 0 0 0;
     padding: 0 15%;
     background-color: #ffffff;
     border-bottom: 1px solid #ffffff;
@@ -78,7 +79,7 @@ body {
     background-color: #ffffff;
 }
 .analyze-end {
-    margin: 0 0 60px 0;
+    margin: 0 0 50px 0;
     padding: 0 15%;
     border-bottom: 1px solid #ffffff;
     background-color: #ffffff;
@@ -88,11 +89,11 @@ body {
     justify-content: space-between;
 }
 .analyze-top {
-    margin: 0;
+    margin: 3px 0 0 0;
     font-size: 15px;
 }
 .analyze-content {
-    margin: 0;
+    margin: 3px 0 0 0;
     color: #a6a6a6;
     font-size: 10px;
 }

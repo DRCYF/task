@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-color: #29bde0;  
+}
+.head {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 41px;
+    background-color: #29bde0;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-style: none;
+    outline: none;
+    top: 15px;
+    left: 10px;
+    height: 18px;
+    width: 21px;
+    border-style:solid;
+    border-width:1px;
+    background-color: #29bde0;
+    border-color: #ffffff; 
+}
+.wire-top {
+    margin-top: 1px;
+    margin-left: -4px;
+    width: 13px;
+    border-bottom: 2px solid #ffffff;
+}
+.wire {
+    margin-top: 2px;
+    margin-left: -4px;
+    width: 13px;
+    border-bottom: 2px solid #ffffff;   
+}
+.wire-bottom {
+    margin-top: 2px;
+    margin-left: -4px;
+    width: 13px;
+    border-bottom: 2px solid #ffffff;
+}
+.vote {
+    text-align: center;
+    margin: 15px 0 3px 0;
+    color: #ffffff;
+}
+.gg {
+    background: url(./images/task8.png)
+    no-repeat;
+    position: absolute;    
+    outline: none;
+    border-style: none; 
+    top: 17px;
+    right: 0px;
+    background-size: 20px; 
+    width: 30px;
+    height: 30px;
+}
+.music {
+    padding: 16px 0 0 16px;
+    height: 41px;
+    background-color: #b9e9f5; 
+}
+.music p {
+    margin: 0;
+}
+.music-right {
+    position: absolute;
+    top: 54px;
+    right: 8px;
+    background: url(./images/Task.png)
+    no-repeat;
+    background-position:  -10px -150px;
+    width: 25px; 
+    height: 25px
+}
+.music-top {
+    position: absolute;
+    top: 40px;
+    right: 3px;
+    width: 98px;
+    opacity: 0.0;
+    transform: rotate(180deg);
+}
+.music-bottom {
+    margin: 0 0 0 25px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 15px  solid #b9e9f5;
+}
+.hint {
+    margin: 0 0 0 30px;
+    font-size: 12px; 
+    color: #ffffff;
+}
+.full {
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0 30px 0;
+}
+.full-center {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 30px 0;
+}
+.gome {
+   background-color: #f5c97b;
+   width: 66px;
+   height: 66px; 
+   outline: none;
+   border: 3px solid #ffffff;
+}
+.gome-top {
+    width: 100%;
+}
+.gome-button {
+    text-align: center;
+    margin: 17px 0 0 -9px;
+    width: 66px;
+    color: #ffffff;
+    background-color: #83b09a;
+}
+.gome:hover .elect{
+    background-color: #29bde0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 10px;
+}
+.elect {
+    display: none;
+    width: 66px;
+    margin-left: -8px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;  
+}
+
+.kill {
+    background: url(./images/Task.png)
+    no-repeat;
+    background-position:  -10px -115px;
+    margin-top: 8px;
+    width: 15px;
+    height: 15px;
+    padding-right: 1px;
+}
+.hunt {
+    background: url(./images/Task.png)
+    no-repeat;
+    background-position:  -10px -10px;
+    margin-top: 8px;
+    width: 15px;
+    height: 15px;
+    padding-right: 1px;
+}
+.view {
+    background: url(./images/Task.png)
+    no-repeat;
+    background-position:  -10px -45px;
+    margin-top: 8px;
+    width: 15px;
+    height: 15px;
+    padding-right: 1px;
+}
+.plus {
+    background: url(./images/Task.png)
+    no-repeat;
+    background-position:  -10px -80px;
+    margin-top: 8px;
+    width: 15px;
+    height: 15px;
+}
+.finally {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    background-color: #29bde0;
+}
+.gg-bottom {
+    margin: 7px 0 0 0;
+    height: 45px;
+    width: 80%;
+    color: #ffffff;
+    background-color: #fbb435;
+}
+.gg-bottom a {
+    text-decoration: none;
+    color: #ffffff;
+}

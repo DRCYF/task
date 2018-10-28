@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #29bde0;  
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 41px;
+    background-color: #29bde0;
+}
+.button {
+    background: url(./images/task1.png)
+    no-repeat;
+    margin: 15px 0 0 10px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-style: none; 
+}
+.button-right {
+    background: url(./images/task2.png)
+    no-repeat;
+    margin: 15px 10px 0 0;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border-style: none; 
+}
+.vote {
+    text-align: center;
+    margin: 15px 0 3px 0;
+    color: #ffffff;
+}
+.vin {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.vin p{
+    margin: 0 40px 0 40px;
+    color: #ffc865;
+}
+.finally {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    background-color: #29bde0;
+}
+.gg-bottom {
+    margin: 7px 0 0 0;
+    height: 45px;
+    width: 80%;
+    color: #ffffff;
+    background-color: #fbb435;
+}
+.dats {
+    margin: 15px 0 0 15%;
+}
+.text {
+    margin: 0;
+    color: #ffffff;
+}
+.analyze {
+    padding: 0 15%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.analyze-boss {
+    padding: 0 15%;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.analyze-end {
+    margin: 0 0 60px 0;
+    padding: 0 15%;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.analyze-text { 
+    display: flex;
+    justify-content: space-between;
+}
+.analyze-top {
+    margin: 0;
+    font-size: 15px;
+}
+.analyze-content {
+    margin: 0;
+    color: #a6a6a6;
+    font-size: 10px;
+}
+.analyze-lfet {
+    margin: 0 ;
+    color: #a6a6a6;
+    font-size: 14px;
+}
+.analyze-below {
+    margin: 0 0 10px 0;
+    color: #a6a6a6;
+    font-size: 14px;
+}
+.finally {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    background-color: rgba(153, 223, 240, 0.5)
+}
+.finally-left {
+    margin-right: 5%;
+    width: 40%;
+    height: 75%;
+    border: 0;
+    border-radius: 20px;
+    font-size: 100%;
+    background-color: #f66f6f;
+}
+.finally-ringht {
+    margin-left: 5%;
+    width: 40%;
+    height: 75%;
+    border: 0;
+    border-radius: 20px;
+    font-size: 100%;
+    background-color: #fbb435;
+}
+.bottoma{
+    color: #fff;
+    text-decoration: none;
+}

@@ -43,7 +43,7 @@ body {
 }
 .vin p{
     text-align: left;
-    margin: 0 40px 0 15%;
+    margin: 0 23px 0 12%;
     color: #ffc865;
 }
 .finally {
@@ -64,7 +64,7 @@ body {
     background-color: #fbb435;
 }
 .dats {
-    margin: 15px 0 0 15%;
+    margin: 23px 0 0 12%;
 }
 .text {
     margin: 0;
@@ -73,18 +73,18 @@ body {
 }
 .analyze {
     margin: 10px 0 0 0;
-    padding: 0 15%;
+    padding: 0 12%;
     background-color: #ffffff;
     border-bottom: 1px solid #ffffff;
 }
 .analyze-boss {
-    padding: 0 15%;
+    padding: 0 12%;
     border-bottom: 1px solid #ffffff;
     background-color: #ffffff;
 }
 .analyze-end {
     margin: 0 0 50px 0;
-    padding: 0 15%;
+    padding: 0 12%;
     border-bottom: 1px solid #ffffff;
     background-color: #ffffff;
 }

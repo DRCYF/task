@@ -7,15 +7,13 @@ body {
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 41px;
     background-color: #29bde0;
 }
 .button {
     display: flex;
     flex-direction: column;
     position: absolute;
-    border-style: none;
-    outline: none;
+    border-style: none; 
     top: 15px;
     left: 10px;
     height: 18px;
@@ -32,6 +30,7 @@ body {
     border-bottom: 2px solid #ffffff;
 }
 .wire {
+    text-align: center;
     margin-top: 2px;
     margin-left: -4px;
     width: 13px;
@@ -60,6 +59,7 @@ body {
     height: 30px;
 }
 .music {
+    margin: -12px 0 0 0;
     padding: 16px 0 0 16px;
     height: 41px;
     background-color: #b9e9f5; 
@@ -69,7 +69,7 @@ body {
 }
 .music-right {
     position: absolute;
-    top: 66px;
+    top: 55px;
     right: 8px;
     background: url(./images/Task.png)
     no-repeat;
@@ -98,6 +98,9 @@ body {
     font-size: 12px; 
     color: #ffffff;
 }
+.boss {
+    margin: 160px 0 30px 0;
+}
 .full {
     display: flex;
     justify-content: space-around;
@@ -108,7 +111,13 @@ body {
     justify-content: space-around;
     margin: 0 0 30px 0;
 }
-
+.gome-boss {
+    width: 66px;
+    height: 66px; 
+    outline: none;
+    background-color: #f5c97b;
+    border: 3px solid #ffffff;
+}
 .gome {
    width: 66px;
    height: 66px; 
@@ -199,6 +208,8 @@ body {
     background-color: #29bde0;
 }
 .gg-bottom {
+    outline: none;
+    border-style: none;
     margin: 7px 0 0 0;
     height: 45px;
     width: 80%;

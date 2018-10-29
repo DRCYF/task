@@ -2,11 +2,15 @@ body {
     margin: 0;
     background-color: #29bde0;  
 }
-.head {
+.head-boss {
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
     background-color: #29bde0;
 }
 .button {
@@ -14,7 +18,7 @@ body {
     flex-direction: column;
     position: absolute;
     border-style: none; 
-    top: 15px;
+    top: 11px;
     left: 10px;
     height: 18px;
     width: 19px;
@@ -43,6 +47,8 @@ body {
     border-bottom: 2px solid #ffffff;
 }
 .vote {
+    font-size: 17px;
+    margin: 7px 0 20px 0;
     text-align: center;
     color: #ffffff;
 }
@@ -52,7 +58,7 @@ body {
     position: absolute;    
     outline: none;
     border-style: none; 
-    top: 17px;
+    top: 11px;
     right: 0px;
     background-size: 20px; 
     width: 30px;
@@ -69,7 +75,7 @@ body {
 }
 .music-right {
     position: absolute;
-    top: 55px;
+    top: 52px;
     right: 8px;
     background: url(./images/Task.png)
     no-repeat;

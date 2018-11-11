@@ -58,6 +58,10 @@ body {
     width: 29px;
     height: 28px;
 }
+.leam {
+    display: flex !important;
+    justify-content: center !important;
+}
 .top {
     background-color: #29b078;
 }

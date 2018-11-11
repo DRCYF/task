@@ -2,6 +2,10 @@ body {
     margin: 0;
     background-color: #fafafa;
 }
+.print-top {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 .head-top{
     width: 100%;
     background-clip: #ffffff;
@@ -54,11 +58,15 @@ body {
     width: 29px;
     height: 28px;
 }
+.top {
+    height: 51px;
+    background-color: #29b078;
+}
 .text-mg{
     margin-bottom: -1px !important;
 }
 .text-top {
-    padding-left: 14rem !important;
+    padding-right: 0!important;
     background-color: #29b078;
 }
 .text{
@@ -71,8 +79,11 @@ body {
     width: 80px;
     height: 25px;
 }
+.navbar {
+    border: 0 solid transparent !important;
+} 
 .center {
-    padding: 0 9rem !important;
+    padding-right: 0!important;
     overflow: hidden;
 }
 .text a {
@@ -139,7 +150,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 135px;
+    height: 18rem;
+    padding: 64px 0;
     border-left:1px dashed #dedede; 
 }
 .digit {
@@ -225,8 +237,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
     border: 1px solid #eeeded;
     box-shadow: #eeeded 1px 1px 1px 1px;
+    background-color: #ffffff;
     height: 25rem;
 }
 .show-man {
@@ -250,7 +265,7 @@ body {
     margin-top: -29px;
     background-position: -10px -434px;
     width: 159px;
-    height: 161px;
+    height: 140px;
 }
 .show-tony {
     background: url(./images/man.png)
@@ -268,13 +283,15 @@ body {
     padding: 3.5vh 0;
 }
 .man {
-    height: 30rem;
+    display: flex;
+    height: 25rem;
 }
 .circle-dot {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 .circle-left {
     margin: 0 1vh;
@@ -295,24 +312,25 @@ body {
     text-align: center;
     margin: 10vh 0;
     padding: 0 !important;
-    border: 1px solid #eeeded;
+    background-color: #ffffff;
 }
-.firm-one {
-    display: inline-block;
+.bag {
+    margin: 0 5px;
 }
 .firm-one:hover {
     box-shadow: #eeeded 2px 2px 2px 2px;
 }
 .link-boss {
-    text-align: center;
     margin: 1vh 0;
 }
 .link {
     display: inline-block;
-    margin: 10px 20px;
+    width: 75px;
+    margin: 10px 17px;
 }
 .link a {
     text-decoration: none;
+    text-align: left;
     color: #a0a0a0;
 }
 .link a:hover {
@@ -361,9 +379,14 @@ body {
     text-decoration: none;
 }
 .size {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     border-top: 1px solid #ffffff; 
     font-size: 1px;
     color: #ffffff;
     background-color: #29b078;
+}
+.size p {
+    margin: 0;
+    text-align: center;
 }

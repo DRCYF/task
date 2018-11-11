@@ -2,9 +2,17 @@ body {
     margin: 0;
     background-color: #fafafa;
 }
+.print-top {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 .head-top{
     width: 100%;
     background-clip: #ffffff;
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 .row-head {
     height: 35px;
@@ -50,11 +58,15 @@ body {
     width: 29px;
     height: 28px;
 }
+.top {
+    height: 51px;
+    background-color: #29b078;
+}
 .text-mg{
     margin-bottom: -1px !important;
 }
 .text-top {
-    padding-left: 2rem !important;
+    padding-right: 0!important;
     background-color: #29b078;
 }
 .text{
@@ -67,8 +79,11 @@ body {
     width: 80px;
     height: 25px;
 }
+.navbar {
+    border: 0 solid transparent !important;
+} 
 .center {
-    padding: 0 9rem !important;
+    padding-right: 0!important;
     overflow: hidden;
 }
 .text a {
@@ -347,11 +362,15 @@ body {
     text-decoration: none;
 }
 .size {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     border-top: 1px solid #ffffff; 
     font-size: 1px;
     color: #ffffff;
     background-color: #29b078;
+}
+.size p {
+    margin: 0;
 }
 
 

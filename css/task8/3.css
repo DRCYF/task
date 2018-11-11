@@ -83,7 +83,9 @@ body {
     border: 0 solid transparent !important;
 } 
 .center {
-    padding-right: 0!important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
     overflow: hidden;
 }
 .text a {
@@ -93,6 +95,9 @@ body {
     text-decoration: none !important;
     color: #ffffff !important;
     border-bottom: 3px solid #ffffff !important;
+}
+.color {
+    background-color: #29b078;
 }
 @media screen and (max-width: 768px) {
     .center{

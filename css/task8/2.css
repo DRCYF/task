@@ -59,7 +59,6 @@ body {
     height: 28px;
 }
 .top {
-    height: 51px;
     background-color: #29b078;
 }
 .text-mg{
@@ -83,6 +82,7 @@ body {
     border: 0 solid transparent !important;
 } 
 .center {
+    margin-right: 0 !important;
     padding-right: 0!important;
     overflow: hidden;
 }

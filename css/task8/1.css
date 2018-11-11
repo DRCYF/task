@@ -59,7 +59,6 @@ body {
     height: 28px;
 }
 .top {
-    height: 51px;
     background-color: #29b078;
 }
 .text-mg{
@@ -94,11 +93,17 @@ body {
     color: #ffffff !important;
     border-bottom: 3px solid #ffffff !important;
 }
+.color {
+    background-color: #29b078;
+}
 @media screen and (max-width: 768px) {
     .center{
         display: flex !important;
         justify-content: center !important;
         border-top: 0 solid transparent !important; 
+    }
+    .color {
+        padding-left: 0 !important;
     }
 }
 .print-one {

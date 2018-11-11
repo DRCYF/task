@@ -151,9 +151,11 @@ body {
     padding: 1px 0;
 }
 .branch a { 
+    width: 56px;
     display: inline-block;
     margin: 0 7px;
     color: #333333;
+    text-align: center;
 }
 .branch a:hover {
     text-decoration: none;

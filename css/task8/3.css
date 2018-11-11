@@ -135,7 +135,6 @@ body {
     text-decoration: none;
 }
 .post {
-    padding-top: 10px; 
     border-top: 1px solid #d0d6d9;
 }
 .branch p {
@@ -143,11 +142,16 @@ body {
     float: left;
 }
 .branch {
+    padding: 10px;
     width: 100%;
     border-bottom: 1px solid #d0d6d9;
 }
+.kind p {
+    margin: 0;
+    padding: 1px 0;
+}
 .branch a { 
-    padding: 10px 0;
+    display: inline-block;
     margin: 0 7px;
     color: #333333;
 }

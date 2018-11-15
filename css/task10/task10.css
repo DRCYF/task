@@ -6,7 +6,6 @@ body {
     box-sizing: border-box;
     height: 2rem;
     background-color: #1d7ad9;
-    margin: 0 0 0.7rem 0px;
 }
 .top {
     display: flex;
@@ -20,18 +19,17 @@ body {
 }
 .button {
     height: 2rem;
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #ffffff; 
-    border-top : #1d7ad9;
-    border-bottom : #1d7ad9;
-    background-color: #1d7ad9;
+    border: #1d7ad9;
+    background: #1d7ad9;
 }
 .come {
-    padding: 0.4rem 0 4rem 0.3rem;
+    border-right: 1px solid #ffffff; 
+    padding: 0.5rem 2rem;
     color: #ffffff;
 }
 .go {
-    padding: 0.4rem 0.5rem 0.4rem 0;
+    border-left: 1px solid #ffffff;
+    padding: 0.5rem 2rem;
     color: #ffffff;
 }
 .come:hover {
@@ -85,12 +83,12 @@ body {
     color: #333333;
 }
 .full {
-    height: 35.1rem;
     background: #ffffff;
 }
 .one {
     display: inline-block; 
     border-radius: 3px;
+    margin-right: -2px;
     width: 4.2rem;
     border-bottom: 0.5rem solid #cccccc;
 }
@@ -134,18 +132,24 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 3rem;
+    margin: 0 0 4rem 0;
 }
 .vip {
     color: #cccccc;
     position: absolute;
     margin: 2.4rem 0;
 }
-.case {
+.cas{
+    padding-left: 5px;
     border-left: 3px solid #1d7ad9;
+}
+.case {
+    margin: 0;
 }
 .trunk{
     display: flex;
     align-items: center;
+    height: 2.7rem;
     border-radius: 5px 5px 0 0;
     background: #f5f5f5;
     color: #1d7ad9;
@@ -159,7 +163,7 @@ body {
 }
 .pair {
     display: flex;
-    padding: 2.15rem 1.5rem;
+    margin-right: 6rem;
 }
 .magic-checkbox {
     opacity: 0.0;
@@ -174,17 +178,9 @@ body {
 .refill {
     margin-left: 1.85rem;
 }
-.plane {
-    margin-left: 0.85rem;
-}
 .fifth {
     margin: 3.5rem 1.5rem;
-}
-.check {
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 1.5rem 1.5rem;
-}    
+}  
 .details {
     display: inline-block;
     appearance:none;
@@ -224,18 +220,32 @@ body {
 }
 .tape {
     height: 12rem;
-    background: #ffffff;
+    background: #fbfcff;
 }
 .inner {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     height: 12rem;
+    background: #fbfcff;
 }
-
+.trunk-elect {
+    align-items: center;
+    height: 6.3rem;
+    background: #fbfcff;
+}
+.age {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 6.3rem;
+    background: #fbfcff;
+}
 .tier {
+    align-items: center;
     height: 13.5rem;
     padding: 2.15rem 1.5rem;
+    background: #fbfcff;
 }
 .trunk {
     display: flex;
@@ -257,11 +267,14 @@ body {
 .boss {
     display: initial;
     text-align: center;
-    height: 10rem;
-    margin-right: 1rem;
+    margin-right: 2.5rem;
 }
 .end {
-    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 13.5rem;
+    background: #fbfcff;
 }
 .next {
     text-align: center;
@@ -270,15 +283,20 @@ body {
     width: 100%;
 }
 .step {
+    border: none;
     border-radius: 5px;
     height: 2.6rem;
-    width: 8.5rem;
+    width: 9rem;
     background: #e15053;;
 }
 .step a {
+    text-decoration: none;
     height: 2.6rem;
     width: 8.5rem;
     color: #ffffff;
+}
+.steo a:hover {
+    outline: none;
 }
 .peer {
     text-align: left;
@@ -293,16 +311,22 @@ body {
     color: #ccc;
 }
 .touch {
-    
-    padding: 0 55px;
     height: 10.3rem;
 }
 .touch a {
+    display: inline-block;
     margin: 0 10px;
     color: #ccc;
 }
 .code {
     margin-left: 10px;
+}
+.hue {
+    background: #f9f9f9;
+}
+.colo {
+    padding-top: 4.5rem;
+    background: #f9f9f9;
 }
 .size {
     display: flex;

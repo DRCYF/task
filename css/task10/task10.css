@@ -251,12 +251,6 @@ label {
     height: 6.3rem;
     background: #fbfcff;
 }
-.tier {
-    align-items: center;
-    height: 13.5rem;
-    padding: 2.15rem 1.5rem;
-    background: #fbfcff;
-}
 .trunk {
     display: flex;
     align-items: center;

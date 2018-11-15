@@ -157,7 +157,7 @@
         height: 100%;
     }
 }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 768px) { 
     .come:hover {
         text-decoration: none;
         padding: 0.5rem 3.2rem;
@@ -186,7 +186,7 @@
         display: none;
     }
     .one {
-        width: 24vw;
+        width: 6rem;
     }
     .tiny {
         margin: 0;

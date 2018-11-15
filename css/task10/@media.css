@@ -119,9 +119,10 @@
         margin-left: 1.85rem;
     }
 }
-@media screen and (min-width: 768px) { 
-    .page {
-        display: inline;
+
+@media screen and (min-width: 500px) { 
+    .tier {
+        display: flex;
     }
     .trunk-elect {
         display: flex;
@@ -129,14 +130,11 @@
         flex-direction: row;
         background: #fbfcff;
     }
-    .text-mg {
-        display: none;
-    }   
-    .tier {
-        display: flex;
-    }
 }
 @media screen and (max-width: 768px) { 
+    .pai {
+        padding: 10px 0 0 0;
+    }
     .peer {
         text-align: center;
     }
@@ -163,14 +161,17 @@
     }
 }
 @media screen and (max-width: 500px) { 
+    .trunk-elect {
+        height: 100%;
+    }
+    .pair {
+        padding: 10px 0px 0 0;
+    }
     .center {
         display: none;
     }
-    .adj {
-        width: 2rem;
-    }
     .one {
-        width: 3rem;
+        width: 9rem;
     }
     .tiny {
         margin: 0;

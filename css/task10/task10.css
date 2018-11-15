@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    background: #ffffff;
+}
+.color {
+    box-sizing: border-box;
+    height: 2rem;
+    background-color: #1d7ad9;
+    margin: 0 0 0.7rem 0px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.call {
+    margin: 0;
+}
+.button {
+    height: 2rem;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff; 
+    border-top : #1d7ad9;
+    border-bottom : #1d7ad9;
+    background-color: #1d7ad9;
+}
+.come {
+    padding: 0.4rem 0 4rem 0.3rem;
+    color: #ffffff;
+}
+.go {
+    padding: 0.4rem 0.5rem 0.4rem 0;
+    color: #ffffff;
+}
+.come:hover {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: #333333;
+    background-color: #ffffff;
+}
+.go:hover {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: #333333;
+    background-color: #ffffff;
+}
+.text-vip{
+    text-align: center;
+    margin: 1rem 0 1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;   
+    color: #000;
+    border: 0.1rem solid #fff;
+    border-radius: 0.8rem;
+    background-color: #fff;
+}
+.text-vip:hover{
+    background-color: #1d7ad9;
+}                             
+.outer {
+    background-color: #f9f9f9;
+}
+.center {
+    text-align: -webkit-right;
+    padding: 1.2rem 0;
+}
+.page {
+    padding: 0.5rem 1.1rem;
+    margin: 0 1.5rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: #ffffff;
+}
+.page:hover {
+    background-color: #1d7ad9;
+}
+.page:hover .elect {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+.elect {
+    color: #333333;
+}
+.full {
+    height: 35.1rem;
+    background: #ffffff;
+}
+.one {
+    display: inline-block; 
+    border-radius: 3px;
+    width: 4.2rem;
+    border-bottom: 0.5rem solid #cccccc;
+}
+.adj {
+    display: inline-block; 
+    margin-right: -3px;
+    border-radius: 3px;
+    width: 4.5rem;
+    border-bottom: 0.5rem solid #cccccc;
+}
+.fall {
+    margin: 0;
+}
+.page {
+    display: inline;
+}
+.circle {
+    text-align: center;
+    display: inline-block; 
+    width: 1.4rem;
+    height: 1.3rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #cccccc;
+}
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total:hover .all {
+    background-color: #ff7f02;
+    border-bottom: 0.5rem solid  #ff7f02;
+}
+.total:hover .vip {
+    color: #ff7f02;
+}
+.plan {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+}
+.vip {
+    color: #cccccc;
+    position: absolute;
+    margin: 2.4rem 0;
+}
+.case {
+    border-left: 3px solid #1d7ad9;
+}
+.trunk{
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    background: #f5f5f5;
+    color: #1d7ad9;
+}
+.lid {
+    display: flex;
+    align-items: center;
+}
+.type {
+    margin-left: 5px;
+}
+.pair {
+    display: flex;
+    padding: 2.15rem 1.5rem;
+}
+.magic-checkbox {
+    opacity: 0.0;
+}
+.magic-checkbox:checked + label::before {
+    background: #fff;
+    border: 5px solid #1d7ad9;
+}
+.magic-checkbox {
+    display: none;
+}
+.refill {
+    margin-left: 1.85rem;
+}
+.plane {
+    margin-left: 0.85rem;
+}
+.fifth {
+    margin: 3.5rem 1.5rem;
+}
+.check {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1.5rem 1.5rem;
+}    
+.details {
+    display: inline-block;
+    appearance:none;
+    margin-top: 3px;
+    margin-left: 0.92rem;
+    padding: 0.6rem 0;
+    padding-right: 4.5rem;
+    padding-left: 1.3rem;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+.corner {
+    float: right;
+    box-sizing: content-box;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    margin: 2px 0;
+    margin-left: 1.3rem;
+    border-radius: 2px;
+    padding: 0.7rem 0.5rem;
+    background: #1d7ad9;
+}
+.details::-ms-expand {
+    display: none; 
+}
+.details{
+    border:1px solid #dcd8d8;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none; 
+    background: url(./images/task1.png) no-repeat 8rem;
+}
+.check-button {
+    float: right;
+}
+.tape {
+    height: 12rem;
+    background: #ffffff;
+}
+.inner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 12rem;
+}
+
+.tier {
+    height: 13.5rem;
+    padding: 2.15rem 1.5rem;
+}
+.trunk {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.select::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.rank {
+    display: inline;
+}
+.boss {
+    display: initial;
+    text-align: center;
+    height: 10rem;
+    margin-right: 1rem;
+}
+.end {
+    background: #fff;
+}
+.next {
+    text-align: center;
+    padding: 5rem;
+    height: 14.3rem;
+    width: 100%;
+}
+.step {
+    border-radius: 5px;
+    height: 2.6rem;
+    width: 8.5rem;
+    background: #e15053;;
+}
+.step a {
+    height: 2.6rem;
+    width: 8.5rem;
+    color: #ffffff;
+}
+.peer {
+    text-align: left;
+}
+.peer p {
+    color: #ccc;
+}
+.peer-all {
+    display: flex;
+}
+.peer-call {
+    color: #ccc;
+}
+.touch {
+    
+    padding: 0 55px;
+    height: 10.3rem;
+}
+.touch a {
+    margin: 0 10px;
+    color: #ccc;
+}
+.code {
+    margin-left: 10px;
+}
+.size {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+.size p {
+    margin: 0;
+}

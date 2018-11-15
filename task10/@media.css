@@ -1,0 +1,202 @@
+
+@media screen and (min-width: 1220px) { 
+    .ruler {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .refill {
+        margin-left: 1.85rem;
+    }
+    .long {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .long-top {
+        display: inline-block;
+    }
+    .long-bottom {
+        display: inline-block;
+    }
+    .long-center {
+        width: 6.8rem;
+        margin: 0 3px;
+    }
+    .pass {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .pai {
+        display: inline-block;
+    }
+    .trunk-elect {
+        display: flex;
+    }
+    .path {
+        margin-left: 1.85rem;
+    }
+    .peer-all {
+        padding: 0 0 0 6rem;
+    }
+}
+@media screen and (min-width: 992px) { 
+    .peer-all {
+        padding: 0 0 0 6rem;
+    }
+    .ruler {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .tier {
+        display: flex;
+    }
+    .trunk-elect {
+        display: flex;
+    }
+    .refill {
+        margin-left: 1.85rem;
+    }
+    .long {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .long-top {
+        display: inline-block;
+    }
+    .long-bottom {
+        display: inline-block;
+    }
+    .long-center {
+        width: 6.8rem;
+        margin: 0 3px;
+    }
+    .pass {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .pai {
+        display: inline-block;
+    }
+    .path {
+        margin-left: 1.85rem;
+    }
+}
+@media screen and (min-width: 768px) { 
+    .ruler {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .refill {
+        margin-left: 1.85rem;
+    }
+    .long {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .long-top {
+        display: inline-block;
+    }
+    .long-bottom {
+        display: inline-block;
+    }
+    .long-center {
+        width: 6.8rem;
+        margin: 0 3px;
+    }
+    .pass {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+    }
+    .pai {
+        display: inline-block;
+    }
+    .path {
+        margin-left: 1.85rem;
+    }
+}
+
+@media screen and (min-width: 500px) { 
+    .trunk-elect {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background: #fbfcff;
+    }
+}
+@media screen and (max-width: 768px) { 
+    .pai {
+        padding: 10px 0 0 0;
+    }
+    .peer {
+        text-align: center;
+    }
+    .peer-all {
+        display: flex;
+        justify-content: center;
+    }
+    .long {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .long-top {
+        display: initial;
+    }
+    .long-center {
+        margin: 10px;
+    }
+    .long-bottom {
+        display: initial;
+    }
+    .tape {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 768px) { 
+    .come:hover {
+        text-decoration: none;
+        padding: 0.5rem 3.2rem;
+        color: #333333;
+        background-color: #ffffff;
+    }
+    .go:hover {
+        text-decoration: none;
+        padding: 0.5rem 3.2rem;
+        color: #333333;
+        background-color: #ffffff;
+    }
+    .top {
+        float: right;
+    }
+    .call {
+        display: none;
+    }
+    .trunk-elect {
+        height: 100%;
+    }
+    .pair {
+        padding: 10px 0px 0 0;
+    }
+    .center {
+        display: none;
+    }
+    .one {
+        width: 6rem;
+    }
+    .tiny {
+        margin: 0;
+    }
+    .center {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .page {
+        display: none;
+    }
+}

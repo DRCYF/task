@@ -1,0 +1,367 @@
+
+body {
+    margin: 0;
+    background: #ffffff;
+}
+label {
+    font-weight: 1;
+}
+.color {
+    box-sizing: border-box;
+    height: 2rem;
+    background-color: #1d7ad9;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.call {
+    margin: 0;
+}
+.button {
+    padding: 0;
+    height: 2rem;
+    border: #1d7ad9;
+    background: #1d7ad9;
+}
+.come {
+    border-right: 1px solid #ffffff; 
+    padding: 0.5rem 2rem;
+    color: #ffffff;
+}
+.go {
+    border-left: 1px solid #ffffff;
+    padding: 0.5rem 2rem;
+    color: #ffffff;
+}
+.come:hover {
+    text-decoration: none;
+    padding: 0.5rem 3.2rem;
+    color: #333333;
+    background-color: #ffffff;
+}
+.go:hover {
+    text-decoration: none;
+    padding: 0.5rem 3.2rem;
+    color: #333333;
+    background-color: #ffffff;
+}
+.lin {
+    padding-right: 0;
+}
+.text-vip{
+    text-align: center;
+    margin: 1rem 0 1rem 2rem !important;    
+    border: 0.1rem solid #fff;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;   
+    background-color: #fff;
+}
+.line {
+    display: inline;
+    padding: 0.5rem 2rem !important;
+    font-size: 1rem;
+    color: #000 !important;
+}
+.text-vip:hover .line {
+    color: #fff !important;
+}
+.text-vip:hover{
+    background-color: #1d7ad9;
+}                             
+.outer {
+    background-color: #f9f9f9;
+}
+.center {
+    text-align: -webkit-right;
+    padding: 1.2rem 0;
+}
+.page {
+    padding: 0.5rem 1.1rem;
+    margin: 0 1.5rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: #ffffff;
+}
+.page:hover {
+    background-color: #1d7ad9;
+}
+.page:hover .elect {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+.elect {
+    color: #333333;
+}
+.full {
+    background: #ffffff;
+}
+.one {
+    display: inline-block; 
+    border-radius: 3px;
+    margin-right: -2px;
+    width: 10rem;
+    border-bottom: 0.5rem solid #cccccc;
+}
+.fall {
+    margin: 0;
+}
+.page {
+    display: inline;
+}
+.circle {
+    position: absolute;
+    text-align: center;
+    display: inline-block; 
+    width: 1.4rem;
+    height: 1.3rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #cccccc;
+}
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total:hover .all {
+    background-color: #ff7f02;
+    border-bottom: 0.5rem solid  #ff7f02;
+}
+.total:hover .vip {
+    color: #ff7f02;
+}
+.plan {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3rem;
+    margin: 0 0 4rem 0;
+}
+.vip {
+    color: #cccccc;
+    position: absolute;
+    margin: 2.4rem 0;
+}
+.cas{
+    padding-left: 5px;
+    border-left: 3px solid #1d7ad9;
+}
+.case {
+    margin: 0 0 0.15rem 0;
+}   
+.trunk{
+    display: flex;
+    align-items: center;
+    height: 44.95px;
+    border-radius: 5px 5px 0 0;
+    background: #f5f5f5;
+    color: #1d7ad9;
+}
+.lid {
+    display: flex;
+    align-items: center;
+}
+.type {
+    margin-left: 5px;
+}
+.pair {
+    display: flex;
+    margin-right: 6rem;
+}
+.magic-checkbox {
+    opacity: 0.0;
+}
+.magic-checkbox:checked + label::before {
+    background: #fff;
+    border: 5px solid #1d7ad9;
+}
+.magic-checkbox {
+    display: none;
+}
+.refill {
+    margin-left: 1.85rem;
+}
+.fifth {
+    margin: 3.5rem 1.5rem;
+}  
+.details {
+    display: inline-block;
+    appearance:none;
+    margin-top: 3px;
+    margin-left: 0.92rem;
+    padding: 0.6rem 0;
+    padding-right: 4.5rem;
+    padding-left: 1.3rem;
+    color: #cccccc;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+.corner {
+    float: right;
+    box-sizing: content-box;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    margin: 2px 0;
+    margin-left: 1.3rem;
+    border-radius: 2px;
+    padding: 0.7rem 0.5rem;
+    background: #1d7ad9;
+}
+.details::-ms-expand {
+    display: none; 
+}
+.details{
+    border:1px solid #dcd8d8;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none; 
+    background: url(./images/task1.png) no-repeat 8rem;
+}
+.check-button {
+    float: right;
+}
+.tape {
+    height: 12rem;
+    background: #fbfcff;
+}
+.inner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 12rem;
+    background: #fbfcff;
+}
+.trunk-elect {
+    align-items: center;
+    height: 6.3rem;
+    background: #fbfcff;
+}
+.age {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 6.3rem;
+    background: #fbfcff;
+}
+.tier {
+    align-items: center;
+    height: 13.5rem;
+    padding: 2.15rem 1.5rem;
+    background: #fbfcff;
+}
+.trunk {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ect {
+    margin-top: 15px;
+}
+.rank::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.select::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.rank {
+    display: inline;
+}
+.boss {
+    display: initial;
+    text-align: center;
+    margin-right: 2.5rem;
+}
+.end {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 13.5rem;
+    background: #fbfcff;
+}
+.next {
+    text-align: center;
+    padding: 5rem;
+    height: 14.3rem;
+    width: 100%;
+}
+.step {
+    border: none;
+    border-radius: 5px;
+    height: 2.6rem;
+    width: 9rem;
+    background: #e15053;;
+}
+.step a {
+    text-decoration: none;
+    height: 2.6rem;
+    width: 8.5rem;
+    color: #ffffff;
+}
+.steo a:hover {
+    outline: none;
+}
+.peer {
+    text-align: left;
+}
+.peer p {
+    color: #ccc;
+}
+.peer-all {
+    display: flex;
+}
+.peer-call {
+    color: #ccc;
+}
+.touch {
+    padding: 0 40px;
+    height: 10.3rem;
+}
+.touch a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #ccc;
+}
+.touch a:hover {
+    color: #75ade6;
+}
+.code {
+    margin-left: 10px;
+}
+.hue {
+    background: #f9f9f9;
+}
+.colo {
+    padding-top: 4.5rem;
+    background: #f9f9f9;
+}
+.size {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+.size p {
+    margin: 0;
+}

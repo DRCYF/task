@@ -41,6 +41,11 @@
     }
 }
 @media screen and (min-width: 992px) { 
+    .tier { 
+    margin-top: 20px;
+    }
+}
+@media screen and (min-width: 992px) { 
     .peer-all {
         padding: 0 0 0 6rem;
     }
@@ -51,6 +56,10 @@
     }
     .tier {
         display: flex;
+        align-items: center;
+        height: 13.5rem;
+        padding: 2.15rem 1.5rem;
+        background: #fbfcff;
     }
     .trunk-elect {
         display: flex;
@@ -85,6 +94,9 @@
     }
 }
 @media screen and (min-width: 768px) { 
+    .tier {
+        margin-top: 20px;
+    }
     .ruler {
         display: flex;
         align-items: center;
@@ -129,6 +141,11 @@
     }
 }
 @media screen and (max-width: 768px) { 
+    .tier {
+        margin-top: 20px;
+        height: 8rem;
+        background: #fbfcff;
+    }
     .pai {
         padding: 10px 0 0 0;
     }
@@ -158,6 +175,12 @@
     }
 }
 @media screen and (max-width: 768px) { 
+    .tier {
+        margin-top: 20px;
+    }
+    .one {
+        width: 6rem;
+    }
     .come:hover {
         text-decoration: none;
         padding: 0.5rem 3.2rem;
@@ -184,9 +207,6 @@
     }
     .center {
         display: none;
-    }
-    .one {
-        width: 6rem;
     }
     .tiny {
         margin: 0;

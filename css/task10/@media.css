@@ -161,6 +161,24 @@
     }
 }
 @media screen and (max-width: 500px) { 
+    .come:hover {
+        text-decoration: none;
+        padding: 0.5rem 3.2rem;
+        color: #333333;
+        background-color: #ffffff;
+    }
+    .go:hover {
+        text-decoration: none;
+        padding: 0.5rem 3.2rem;
+        color: #333333;
+        background-color: #ffffff;
+    }
+    .top {
+        float: right;
+    }
+    .call {
+        display: none;
+    }
     .trunk-elect {
         height: 100%;
     }
@@ -171,7 +189,7 @@
         display: none;
     }
     .one {
-        width: 9rem;
+        width: 6rem;
     }
     .tiny {
         margin: 0;

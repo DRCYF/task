@@ -121,9 +121,6 @@
 }
 
 @media screen and (min-width: 500px) { 
-    .tier {
-        display: flex;
-    }
     .trunk-elect {
         display: flex;
         align-items: center;

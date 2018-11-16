@@ -285,13 +285,7 @@ label {
     text-align: center;
     margin-right: 2.5rem;
 }
-.end {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    height: 13.5rem;
-    background: #fbfcff;
-}
+
 .next {
     text-align: center;
     padding: 5rem;

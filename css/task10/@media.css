@@ -41,8 +41,12 @@
     }
 }
 @media screen and (min-width: 992px) { 
-    .tier { 
-    margin-top: 20px;
+    .end {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: 13.5rem;
+        background: #fbfcff;
     }
 }
 @media screen and (min-width: 992px) { 
@@ -61,6 +65,7 @@
         padding: 2.15rem 1.5rem;
         background: #fbfcff;
     }
+    
     .trunk-elect {
         display: flex;
     }
@@ -94,8 +99,16 @@
     }
 }
 @media screen and (min-width: 768px) { 
+    .end {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: 10rem;
+    }
     .tier {
-        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 10rem;
     }
     .ruler {
         display: flex;
@@ -141,8 +154,14 @@
     }
 }
 @media screen and (max-width: 768px) { 
+    .end {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: 5rem;
+        background: #fbfcff;
+    }
     .tier {
-        margin-top: 20px;
         height: 8rem;
         background: #fbfcff;
     }
@@ -176,7 +195,7 @@
 }
 @media screen and (max-width: 768px) { 
     .tier {
-        margin-top: 20px;
+        padding:  25px 15px;
     }
     .one {
         width: 6rem;

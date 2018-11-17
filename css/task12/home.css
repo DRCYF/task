@@ -120,12 +120,14 @@ body {
   justify-content: center;
   width: 100%;
   bottom: 0;
+  background: #fff;
   z-index: 1;
 }
 .elect .stay {
   justify-content: center;
   margin-left: .17rem;
   margin-right: .14rem;
+  margin-bottom: 0.2rem;
   border-radius: 7px;
   border: 1px solid #5fc0cd;
   width: 1.54rem;
@@ -139,6 +141,7 @@ body {
   justify-content: center;
   margin-left: .17rem;
   margin-right: 0.14rem;
+  margin-bottom: 0.2rem;
   border-radius: 7px;
   border: none;
   width: 1.54rem;

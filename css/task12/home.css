@@ -124,18 +124,21 @@ body {
 }
 .elect .stay {
   justify-content: center;
-  margin-right: 0.28rem;
+  margin-left: .17rem;
+  margin-right: .14rem;
   border-radius: 7px;
   border: 1px solid #5fc0cd;
   width: 1.54rem;
   height: .45rem;
   color: #5fc0cd;
-  background: #fff;
   text-decoration: none;
+  background: #fff;
   z-index: 1;
 }
 .elect .call {
   justify-content: center;
+  margin-left: .17rem;
+  margin-right: 0.14rem;
   border-radius: 7px;
   border: none;
   width: 1.54rem;
@@ -143,5 +146,4 @@ body {
   color: #fff;
   background: #5fc0cd;
   text-decoration: none;
-  z-index: 1;
 }

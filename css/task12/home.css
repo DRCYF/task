@@ -131,6 +131,7 @@ body {
   height: .45rem;
   color: #5fc0cd;
   text-decoration: none;
+  z-index: 1;
 }
 .elect .call {
   justify-content: center;
@@ -141,4 +142,5 @@ body {
   color: #fff;
   background: #5fc0cd;
   text-decoration: none;
+  z-index: 1;
 }

@@ -1,0 +1,133 @@
+html {
+  font-size: 652%;
+}
+body {
+  margin: 0;
+  font-size: .15rem;
+}
+.middle {
+  display: flex;
+  align-items: center;
+}
+.gps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #5fc0cd;
+  width: 100%;
+  height: .44rem;
+}
+.gps .angle {
+  margin-left: 0.17rem;
+  margin-right: -0.17rem;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid #e7e7e7;
+  border-right: 3px solid #e7e7e7;
+  transform: rotate(-136deg);
+}
+.gps .home {
+  margin: 0;
+  font-size: 0.16rem;
+  font-weight: 1;
+  color: #fff;
+}
+.details {
+  margin-bottom: .48rem;
+}
+.details .name {
+  display: flex;
+  align-items: center;
+  height: 1.625rem;
+  background: url(img/img.png) no-repeat;
+  background-size: 100% auto;
+}
+.details .girl {
+  padding-left: 0.3rem;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+.details .age {
+  display: flex;
+  margin-left: .2rem;
+}
+.details .name-noe {
+  margin: 0;
+  color: #fff;
+}
+.details .ip {
+  margin: 0 0 0 .2rem;
+  padding-left: 0.2rem;
+  font-size: 0.11rem;
+  color: #fff;
+  background: url(img/task3.png) no-repeat;
+}
+.details .skill {
+  border-bottom: 1px solid #eff0f4;
+  padding-left: .15rem;
+  height: .5rem;
+}
+.details .major {
+  margin: 0;
+  border-left: 3px solid #5fc0cd;
+  padding-left: .15rem;
+}
+.details .minute {
+  padding-left: .15rem;
+}
+.details .stay {
+  padding-left: .21rem;
+  border-bottom: 1px solid #eff0f4;
+}
+.details .star {
+  padding-left: .24rem;
+  background: url(img/stay.png) no-repeat 1px;
+}
+.details .eat {
+  margin-left: .1rem;
+  border-left: 1px solid #eff0f4;
+  padding-left: .34rem;
+  background: url(img/stay.png) no-repeat 0.12rem;
+}
+.details .time {
+  padding-right: .21rem;
+  color: #999999;
+  border-right: 1px solid #eff0f4;
+}
+.details .year {
+  padding-left: 0.11rem;
+  padding-right: 0.11rem;
+  font-size: .13rem;
+}
+.details .red {
+  color: #e9888a;
+}
+.details .my {
+  white-space: nowrap;
+}
+.elect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0  .18rem .21rem .18rem;
+}
+.elect .stay {
+  justify-content: center;
+  margin-right: 0.28rem;
+  border-radius: 7px;
+  border: 1px solid #5fc0cd;
+  width: 1.54rem;
+  height: .45rem;
+  color: #5fc0cd;
+  text-decoration: none;
+}
+.elect .call {
+  justify-content: center;
+  border-radius: 7px;
+  border: none;
+  width: 1.54rem;
+  height: .45rem;
+  color: #fff;
+  background: #5fc0cd;
+  text-decoration: none;
+}

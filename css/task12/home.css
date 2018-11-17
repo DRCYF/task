@@ -2,6 +2,7 @@ html {
   font-size: 652%;
 }
 body {
+  box-sizing: border-box;
   margin: 0;
   font-size: .15rem;
 }
@@ -10,12 +11,15 @@ body {
   align-items: center;
 }
 .gps {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #5fc0cd;
   width: 100%;
   height: .44rem;
+  top: 0;
+  z-index: 1;
 }
 .gps .angle {
   margin-left: 0.17rem;
@@ -33,6 +37,7 @@ body {
   color: #fff;
 }
 .details {
+  margin-top: .3rem;
   margin-bottom: .48rem;
 }
 .details .name {
@@ -105,11 +110,17 @@ body {
 .details .my {
   white-space: nowrap;
 }
+.next {
+  margin-bottom: .8rem;
+}
 .elect {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0  .18rem .21rem .18rem;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
 }
 .elect .stay {
   justify-content: center;

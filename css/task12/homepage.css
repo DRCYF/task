@@ -83,9 +83,12 @@ body {
   padding-left: .25rem;
   font-size: 0.14rem;
   color: #999999;
-  background: url(img/task2.png) no-repeat;
+  background: url(img/task2.png) 1px no-repeat;
 }
 .case .age {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin: .1rem 0;
   padding-left: .25rem;
   font-size: 0.14rem;
@@ -107,6 +110,9 @@ body {
   height: .9rem;
 }
 .case .money-noe {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin: .1rem 0.11rem;
   color: #e63b0e;
   font-size: 0.14rem;

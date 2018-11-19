@@ -1,0 +1,141 @@
+html {
+  font-size: 652%;
+}
+body {
+  margin: 0;
+  font-size: .15rem;
+  background: #f0f0f0;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.till {
+  display: flex;
+  align-items: center;
+}
+.part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gps {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  border: none;
+  padding-left: .15rem;
+  width: 100%;
+  height: .435rem;
+  background: #97d6df;
+  z-index: 1;
+}
+.gps-noe {
+  display: none;
+  background: #97d6df;
+}
+.gps .bar {
+  display: block;
+  margin-top: .045rem;
+  width: .17rem;
+  height: .02rem;
+  background-color: #e7e7e7;
+}
+.kind {
+  box-sizing: border-box;
+  margin-top: .435rem;
+  padding: .12rem .18rem 0 .18rem;
+  background: #f0f0f0;
+}
+.up {
+  box-sizing: border-box;
+  padding: 0 .12rem;
+  margin: 0;
+  height: .62rem;
+  background: #ffffff;
+}
+.up .ipv {
+  font-size: 18px;
+  color: #9a9a9a;
+}
+.up .boult {
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid #e7e7e7;
+  border-right: 3px solid #e7e7e7;
+  transform: rotate(46deg);
+}
+.game {
+  box-sizing: border-box;
+  margin-top: .14rem;
+  background: #ffffff;
+}
+.game .hold {
+  margin: 0;
+  width: 100%;
+  height: .46rem;
+  border-bottom: 1px solid #fbb435;
+  font-weight: 1;
+  color: #fbb435;
+}
+.edition {
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: .15rem .25rem 0 .25rem;
+  background: #ffffff;
+}
+.edition .rank {
+  text-decoration: none;
+  margin: 0;
+  width: 100%;
+  height: .67rem;
+  font-size: 18px;
+  color: #ffffff;
+  background: #97d6df;
+}
+.edition .count {
+  margin: 0;
+  width: 100%;
+  height: .35rem;
+  font-size: .1rem;
+  color: #787878;
+}
+.edition .angle {
+  bottom: -1.15rem;
+  top: 3.12rem;
+  right: .25rem;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 13px solid #fbb435;
+}
+.bag {
+  box-sizing: border-box;
+  padding: 0 .18rem;
+}
+.circle {
+  box-sizing: border-box;
+  margin: 0 0 15px 0;
+  padding-right: .36rem;
+  background: #ffffff;
+}
+.circle .dot {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 2% 2% 2%;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #ababab;
+}
+.circle .dot:hover {
+  background: #97d6df;
+}

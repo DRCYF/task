@@ -1,0 +1,159 @@
+html {
+  font-size: 652%;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: .15rem;
+  background: #29bde0;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.till {
+  display: flex;
+  align-items: center;
+}
+.part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0 .11rem;
+  height: .435rem;
+  width: 100%;
+  background: #29bde0;
+}
+.header .gps .side {
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  width: .2rem;
+  height: .2rem;
+}
+.header .gps .one {
+  margin-bottom: 0;
+}
+.header .gps .bar {
+  display: block;
+  margin: 3.5px 3px;
+  width: .14rem;
+  height: .02rem;
+  background-color: #e7e7e7;
+}
+.header .writ {
+  color: #ffffff;
+  font-size: .2rem;
+  font-weight: 1;
+}
+.header .gg {
+  width: .2rem;
+  height: .2rem;
+}
+.talk {
+  margin-top: .435rem;
+  padding-left: .235rem;
+  padding-right: .09rem;
+  background: #b9e9f5;
+  height: .41rem;
+}
+.talk .word {
+  margin: 0;
+  font-size: .13rem;
+}
+.talk .cd {
+  background: url(img/music.png) right 50% no-repeat;
+}
+.talk .music {
+  width: .9rem;
+  opacity: 0.0;
+  transform: rotate(180deg);
+}
+.next {
+  margin: 0 0 0 25px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 15px solid #b9e9f5;
+}
+.hint {
+  margin: 0 0 0 30px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.rank {
+  margin-top: .27rem;
+  padding: 0 .2rem;
+}
+.rank .man {
+  margin: 0;
+  height: .68rem;
+  width: .68rem;
+  border: 2px solid #ffffff;
+}
+.rank .man-noe {
+  text-align: center;
+  height: 80%;
+  margin: 0;
+  background: #f5c97b;
+}
+.rank .size {
+  text-align: center;
+  margin: 0;
+  height: 20%;
+  font-size: .05rem;
+  color: #ffffff;
+  background: #83b09a;
+}
+.below {
+  margin-bottom: 1rem;
+}
+.man:hover .ico {
+  display: flex;
+}
+.ico {
+  display: none;
+}
+.ico .icon {
+  margin-top: 8px;
+  width: 15px;
+  height: 15px;
+  padding-right: 1px;
+}
+.ico .noe {
+  background: url(img/Task.png) -10px -10px no-repeat;
+}
+.ico .tow {
+  background: url(img/Task.png) -10px -10px no-repeat;
+}
+.ico .tri {
+  background: url(img/Task.png) -10px -45px no-repeat;
+}
+.ico .four {
+  background: url(img/Task.png) -10px -80px no-repeat;
+}
+.go {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: .75rem;
+  background: #29bde0;
+}
+.go .out {
+  text-decoration: none;
+  width: 2rem;
+  height: .45rem;
+  color: #ffffff;
+  background: #fbb435;
+}

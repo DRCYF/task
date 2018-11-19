@@ -1,0 +1,134 @@
+html {
+    font-size: 652%;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: .15rem;
+}
+@hue1:#29bde0;
+@hue2: #ffc865;
+@hue3:#ffffff;
+@hue4:#9a9a9a;
+@hue5: #e7e7e7; 
+.in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.till {
+    display: flex;
+    align-items: center;
+}
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gps {
+        position: fixed;
+        top: 0;
+        box-sizing: border-box;
+        padding: 0 .11rem;
+        height: .435rem;
+        width: 100%;
+        background: @hue1;
+        z-index: 1;
+    .writ {
+        color: @hue3;
+        font-size: .2rem;
+        font-weight: 1;
+    }
+    .gg {
+        width: .2rem;
+        height: .2rem;
+    }
+}
+.boss {
+    box-sizing: border-box;
+    margin-top: .435rem;
+    padding: 0 .335rem;
+    padding-bottom: .08rem;
+    width: 100%;
+    background: #29bde0;
+    .over {
+        position: relative;
+        height: 1.1rem;
+        background: url(img/task3.png) 50% center no-repeat ;
+    }
+    .win {   
+        width: 100%;
+        color: @hue2;
+        font-size: 17px;
+    }
+    .role {
+        color: @hue3;
+        font-size: .05rem;
+    }
+    .part {
+        margin: 0;
+        width: 33.333%;
+        font-size: .05rem;
+    }
+    .key {
+        margin: 0;
+        font-size: .05rem;
+        color: @hue3;
+    }
+}
+.detail {
+    padding: 0 .335rem;
+    .day {
+        margin: .065rem 0 .05rem 0;
+    }
+    .one-day {
+        margin: 0;
+        color: #515151;
+        font-size: .14rem;
+    }
+    .time {
+        margin: 0 0 .14rem 0;
+        font-size: .05rem;
+        color: #d5d5d5;
+    }
+    .time-one {
+        margin: 0;
+        color: #a6a6a6;
+        font-size: .12rem;
+    }
+}
+.tip {
+    margin-bottom: .8rem;
+}
+.over {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: .65rem;
+    background-color: rgba(153, 223, 240, 0.5);
+    .recur {
+        text-decoration: none;
+        margin-right: 5%;
+        width: 40%;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        color: @hue3;
+        background-color: #f66f6f;
+    }
+    .share {
+        text-decoration: none;
+        margin-right: 5%;
+        border-radius: 5px;
+        width: 40%;
+        height: 40px;
+        border: 0;
+        color: @hue3;
+        background-color: #fbb435;
+    }
+}

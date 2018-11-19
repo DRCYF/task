@@ -1,0 +1,129 @@
+html {
+  font-size: 652%;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: .15rem;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.till {
+  display: flex;
+  align-items: center;
+}
+.part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gps {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0 .11rem;
+  height: .435rem;
+  width: 100%;
+  background: #29bde0;
+  z-index: 1;
+}
+.gps .writ {
+  color: #ffffff;
+  font-size: .2rem;
+  font-weight: 1;
+}
+.gps .gg {
+  width: .2rem;
+  height: .2rem;
+}
+.boss {
+  box-sizing: border-box;
+  margin-top: .435rem;
+  padding: 0 .335rem;
+  padding-bottom: .08rem;
+  width: 100%;
+  background: #29bde0;
+}
+.boss .over {
+  position: relative;
+  height: 1.1rem;
+  background: url(img/task3.png) 50% center no-repeat;
+}
+.boss .win {
+  width: 100%;
+  color: #ffc865;
+  font-size: 17px;
+}
+.boss .role {
+  color: #ffffff;
+  font-size: .05rem;
+}
+.boss .part {
+  margin: 0;
+  width: 33.333%;
+  font-size: .05rem;
+}
+.boss .key {
+  margin: 0;
+  font-size: .05rem;
+  color: #ffffff;
+}
+.detail {
+  padding: 0 .335rem;
+}
+.detail .day {
+  margin: .065rem 0 .05rem 0;
+}
+.detail .one-day {
+  margin: 0;
+  color: #515151;
+  font-size: .14rem;
+}
+.detail .time {
+  margin: 0 0 .14rem 0;
+  font-size: .05rem;
+  color: #d5d5d5;
+}
+.detail .time-one {
+  margin: 0;
+  color: #a6a6a6;
+  font-size: .12rem;
+}
+.tip {
+  margin-bottom: .8rem;
+}
+.over {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: .65rem;
+  background-color: rgba(153, 223, 240, 0.5);
+}
+.over .recur {
+  text-decoration: none;
+  margin-right: 5%;
+  width: 40%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f66f6f;
+}
+.over .share {
+  text-decoration: none;
+  margin-right: 5%;
+  border-radius: 5px;
+  width: 40%;
+  height: 40px;
+  border: 0;
+  color: #ffffff;
+  background-color: #fbb435;
+}

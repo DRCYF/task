@@ -69,11 +69,11 @@ body {
 .boss .part {
   margin: 0;
   width: 33.333%;
-  font-size: .05rem;
+  font-size: .13rem;
 }
 .boss .key {
   margin: 0;
-  font-size: .05rem;
+  font-size: .13rem;
   color: #ffffff;
 }
 .detail {
@@ -85,17 +85,17 @@ body {
 .detail .one-day {
   margin: 0;
   color: #515151;
-  font-size: .14rem;
+  font-size: .15rem;
 }
 .detail .time {
   margin: 0 0 .14rem 0;
-  font-size: .05rem;
+  font-size: .13rem;
   color: #d5d5d5;
 }
 .detail .time-one {
   margin: 0;
   color: #a6a6a6;
-  font-size: .12rem;
+  font-size: .13rem;
 }
 .tip {
   margin-bottom: .8rem;

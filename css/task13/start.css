@@ -130,7 +130,7 @@ body {
 .circle .dot {
   list-style-type: none;
   text-align: center;
-  margin: 0 2% 2% 2%;
+  margin: 0  5px 5px 5px;
   width: 8px;
   height: 8px;
   border-radius: 8px;

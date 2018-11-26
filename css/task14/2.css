@@ -1,0 +1,256 @@
+html {
+  font-size: 652%;
+}
+body {
+  margin: 0;
+  font-size: .17rem;
+  background: #fafafa;
+}
+.in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.till {
+  display: flex;
+  align-items: center;
+}
+.part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.size {
+  white-space: nowrap;
+  font-size: .07rem;
+}
+.size-one {
+  font-size: .09rem;
+}
+.call {
+  color: #29b078;
+}
+.size {
+  color: #fff;
+}
+.elae {
+  text-align: right;
+  padding: 0;
+}
+.elae .rest {
+  display: inline-block;
+  margin: 0;
+  width: 29px;
+  height: 35px;
+}
+.elae .wx {
+  background: url(images/head.png) -10px -34px no-repeat;
+}
+.elae .qq {
+  background: url(images/head.png) -10px -128px no-repeat;
+}
+.elae .wb {
+  background: url(images/head.png) -10px -80px no-repeat;
+}
+.img {
+  width: 1.07rem;
+  height: .52rem;
+  background: url(images/logo.png) 0 50% no-repeat;
+}
+.hue {
+  background: #29b078;
+}
+.cake {
+  width: 100%;
+  height: 100%;
+}
+.cake input[type=checkbox] {
+  display: none;
+}
+.cake .menu {
+  box-sizing: border-box;
+  position: absolute;
+  top: 52px;
+  right: 6%;
+  padding: 0 .06rem;
+  height: .25rem;
+  width: .3rem;
+  background-color: #29b078;
+}
+.cake .sky {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #29b078;
+}
+.sky a {
+  text-decoration: none;
+  color: #fff;
+}
+.gg {
+  margin-top: 5px;
+  margin-left: -4px;
+  width: 26px;
+  border-bottom: 2px solid #ffffff;
+}
+.ring {
+  margin: 0 10%;
+}
+.depth {
+  width: 100%;
+  height: 100%;
+}
+.depth .inner {
+  width: 100%;
+  height: 100%;
+}
+.firm {
+  height: .8rem;
+}
+.firm .firm-left {
+  color: #333333;
+  text-decoration: none;
+}
+.firm .firm-center {
+  display: block;
+  margin: 0 .05rem;
+  width: .07rem;
+  height: .07rem;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  transform: rotate(45deg);
+}
+.firm .firm-right {
+  color: #29b078;
+  text-decoration: none;
+}
+.lump-boss .lump {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dadada;
+  margin-bottom: .1rem;
+  background: #fff;
+}
+.lump-boss .lump-txt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: .1rem 0;
+  font-size: .2rem;
+  border-bottom: 1px solid #dadada;
+}
+.lump-boss .lump a {
+  text-align: left;
+  margin: .16rem 0;
+  width: 1.3rem;
+  color: #29b078;
+  text-decoration: none;
+}
+.lump-boss .lump a:hover {
+  text-decoration: none;
+  color: #ff6d1b;
+}
+.lump-boss .lump a:hover .circle-left {
+  background: #ff6d1b;
+}
+.lump-boss .circle-left {
+  display: inline-block;
+  margin: 0 .1rem;
+  width: .08rem;
+  height: .08rem;
+  border-radius: 8px;
+  border: 2px solid #ff6d1b;
+}
+.say-boss {
+  border: 1px solid #dadada;
+  margin-bottom: 1rem;
+  font-size: .14rem;
+  background: #fff;
+}
+.say-boss .say-txt {
+  margin: 0;
+  color: #999;
+}
+.say-boss .say-top img {
+  float: left;
+  width: 2rem;
+  height: 1.15rem;
+}
+.say-boss .img-boss {
+  width: 2.3rem;
+  height: 1.77rem;
+}
+.say-boss .say-top {
+  padding: .25rem 20px 0 20px;
+}
+.say-boss .say-bottom {
+  margin: .25rem 0;
+  border-top: 1px solid #dadada;
+}
+.say-boss .say-bottom p {
+  text-indent: .3rem;
+  padding: .2rem;
+  color: #999999;
+}
+.bottom {
+  margin-top: 1.33rem;
+  font-size: .14rem;
+  background-color: #29b078;
+}
+.bottom .peer p {
+  padding-top: .25rem;
+  color: #ffffff;
+}
+.bottom .touch {
+  padding-top: .7rem;
+  padding-bottom: .25rem;
+}
+.bottom .boat {
+  padding-top: .22rem;
+}
+.bottom .touch a {
+  color: #ffffff;
+}
+.bottom .touch a:hover {
+  text-decoration: none;
+}
+.bottom .we {
+  padding: 0 4px;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.bottom .boat a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom .boat a:hover {
+  text-decoration: none;
+}
+.bottom .gome {
+  padding-top: .26rem;
+}
+.bottom .gome a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom .gome a:hover {
+  text-decoration: none;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ffffff;
+  font-size: .14rem;
+  color: #ffffff;
+  background-color: #29b078;
+}
+.end p {
+  margin: 0;
+  text-align: center;
+}

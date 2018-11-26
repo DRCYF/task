@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) { 
+    .lump {
+        width: 90%;
+    }
+    .say-boss {
+        width: 90%;
+    }
+    .peer-boss{
+        text-align: center;
+    }
+    .inner {
+        margin-right: 0;
+    }
+}

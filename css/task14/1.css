@@ -404,7 +404,7 @@ body {
   outline: none;
 }
 .logo:hover {
-  box-shadow: #eeeded 15px 10px 30px 5px;
+  box-shadow: 2px 2px 5px 5px  #eeeded;
   z-index: 1;
 }
 .skip {

@@ -137,6 +137,7 @@
   .bag {
       display: flex;
       align-items: center;
+      position: relative;
   }
   .wb {
       margin-right: .1rem;
@@ -183,5 +184,6 @@
   }
   .bag {
       text-align: center;
+      position: relative;
   }
 }

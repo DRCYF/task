@@ -76,12 +76,12 @@ body {
     input[type=checkbox]{
         display: none;
     }
-
     .menu {
         box-sizing: border-box;
         position: absolute;
-        top: 52px;
-        right: 6%;
+        top: 14px;
+        right: 0%;
+        bottom: 0;
         padding: 0 .06rem;
         height: .25rem;
         width: .3rem;
@@ -272,7 +272,7 @@ body {
         padding: .15rem 0;
     }
     .idea-right {
-        height: 2.8rem;
+        height: 2.3rem;
         border-left:1px dashed #dedede; 
     }
     .datd {
@@ -294,6 +294,7 @@ body {
 .study {
     margin-top: .75rem;
     margin-bottom: .25rem;
+    padding-top: .15rem;
     width: 100%;
 }
 .wed-full {
@@ -410,18 +411,37 @@ body {
     box-shadow:  #eeeded 15px 10px 30px 5px;
     z-index: 1;
 }
+.skip {
+    background: @head2;    
+}
+.link-boss {
+    padding-bottom: .1rem;
+}
 .link {
     display: inline-block;
-    margin: 1.7%;
+    margin-bottom: .1rem;
+    width: 1rem;
     font-size: .14rem;
 }
 .link a {
+    display: inline-block;
     text-decoration: none;
     text-align: left;
-    color: #a0a0a0;
+    height: 35px;
+    color: @main3;
 }
-.link a:hover {
+.link {
+    li {
+        height: 28px;
+    }
+}
+.link li:hover {
     text-decoration: none;
+    border-bottom: 1px solid @head1;
+}
+.glide:hover {
+    text-decoration: none;
+    border-bottom: 1px solid @head2;
 }
 .bottom {
     font-size: .14rem;
@@ -438,6 +458,7 @@ body {
         padding-top: .22rem;
     }
     .touch a {
+        text-decoration: none;
         color: #ffffff;
     }
     .touch a:hover {

@@ -27,7 +27,7 @@ body {
 }
 .size {
   white-space: nowrap;
-  font-size: .07rem;
+  font-size: .14rem;
 }
 .size-one {
   font-size: .09rem;
@@ -284,10 +284,11 @@ body {
 .ios {
   display: none;
   position: absolute;
+  padding: 0px 45px;
   top: 0;
   bottom: 0;
   text-indent: .3rem;
-  padding: .4rem;
+  font-size: .15rem;
   color: #ffffff;
   background: rgba(10, 4, 4, 0.7);
   z-index: 1;

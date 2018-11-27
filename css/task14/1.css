@@ -424,7 +424,7 @@ body {
   color: #acacac;
 }
 .link li {
-  width: 1rem;
+  width: .85rem;
   height: 28px;
 }
 .link li:hover {

@@ -301,7 +301,8 @@ body {
 .wed-full .wed {
   display: flex;
   align-items: center;
-  margin-bottom: .425rem;
+  justify-content: center;
+  height: 1rem;
 }
 .wed-full .study {
   display: flex;
@@ -331,58 +332,50 @@ body {
   background: url(images/head.png) no-repeat;
   background-position: -10px -183px;
   margin: 0 .13rem 0 .18rem;
-  width: 30px;
-  height: 31px;
+  width: .37rem;
+  height: .31rem;
 }
-.show-boss .ide {
-  margin-top: 20px;
+.ide {
+  padding: .2rem;
 }
-.show-boss .box {
+.ide .box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 .25rem;
-  padding-top: .1rem;
+  padding: .25rem 0 0 .11rem;
   border: 1px solid #eeeded;
-  height: 3.2rem;
   box-shadow: #eeeded 1px 1px 1px 1px;
   background-color: #ffffff;
 }
-.show-boss .show-man {
+.ide .show-man {
+  background: url(images/man.png) no-repeat;
+  background-position: -10px -397px;
+  width: 1.08rem;
+  height: 1.2rem;
+}
+.ide .show-jack {
+  background: url(images/man.png) no-repeat;
+  background-position: -10px -268px;
+  width: 1.08rem;
+  height: 1.2rem;
+}
+.ide .show-tom {
   background: url(images/man.png) no-repeat;
   background-position: -10px -10px;
   width: 1.08rem;
   height: 1.2rem;
 }
-.show-boss .show-jack {
+.ide .show-tony {
   background: url(images/man.png) no-repeat;
-  margin-top: -23px;
-  background-position: -10px -278px;
-  width: 1.24rem;
-  height: 1.4rem;
-}
-.show-boss .show-tom {
-  background: url(images/man.png) no-repeat;
-  margin-top: -29px;
-  background-position: -10px -434px;
-  width: 159px;
-  height: 1.5rem;
-}
-.show-boss .show-tony {
-  background: url(images/man.png) no-repeat;
-  background-position: -10px -138px;
-  width: 140px;
+  background-position: -10px -139px;
+  width: 1.08rem;
   height: 1.2rem;
 }
-.show-boss .state-bat {
+.ide .state-bat {
   margin: 0;
-  padding: 30px 19px;
+  padding: .3rem .05rem .3rem .05rem;
   font-size: .16rem;
   color: #999999;
-}
-.show-boss .man {
-  display: flex;
-  height: 25rem;
 }
 .circle-dot {
   margin-top: .24rem;
@@ -403,6 +396,10 @@ body {
   background-color: #29b078;
   outline: none;
 }
+.logo {
+  width: 213px;
+  height: auto;
+}
 .logo:hover {
   box-shadow: 2px 2px 5px 5px  #eeeded;
   z-index: 1;
@@ -412,11 +409,11 @@ body {
 }
 .link-boss {
   padding-bottom: .1rem;
+  text-align: center;
 }
 .link {
   display: inline-block;
-  margin-bottom: .1rem;
-  width: 1rem;
+  text-align: center;
   font-size: .14rem;
 }
 .link a {
@@ -427,6 +424,7 @@ body {
   color: #acacac;
 }
 .link li {
+  width: 1rem;
   height: 28px;
 }
 .link li:hover {

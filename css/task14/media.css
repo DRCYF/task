@@ -6,6 +6,20 @@
         display: flex;
         align-items: center;
     }
+    .link-boss {
+        display: flex;
+    }
+}
+@media screen and (max-width: 992px) { 
+    .mix {
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width: 500px) {
+    .link-boss {
+        display: flex;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 768px) { 
     .peer-boss{
@@ -13,5 +27,9 @@
     }
     .link-boss {
         text-align: center;
+        padding: 0 5px;
+    }
+    .mix {
+        padding: 0 40px;
     }
 }

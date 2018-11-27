@@ -301,7 +301,8 @@ body {
     .wed {
         display: flex;
         align-items: center;
-        margin-bottom: .425rem;
+        justify-content: center;
+        height: 1rem;
     }
     .study {
         display: flex;
@@ -332,62 +333,52 @@ body {
         no-repeat;
         background-position: -10px -183px;
         margin: 0 .13rem 0 .18rem;
-        width: 30px;
-        height: 31px;
+        width: .37rem;
+        height: .31rem;
     }
 }
-.show-boss {
-    .ide {
-        margin-top: 20px;
+.ide {
+    padding: .2rem;
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: .25rem 0 0 .11rem;
+            border: 1px solid #eeeded;
+            box-shadow: #eeeded 1px 1px 1px 1px;
+            background-color: #ffffff;
+        }
+        .show-man {
+            background: url(./images/man.png) no-repeat;
+            background-position: -10px -397px;
+            width: 1.08rem;
+            height:  1.2rem;
+        }
+        .show-jack {
+            background: url(./images/man.png) no-repeat;
+            background-position: -10px -268px;
+            width: 1.08rem;
+            height:  1.2rem;
+        }
+        .show-tom {
+            background: url(./images/man.png) no-repeat;
+            background-position: -10px -10px;;
+            width: 1.08rem;
+            height:  1.2rem;
+        }
+        .show-tony {
+            background: url(./images/man.png) no-repeat;
+            background-position: -10px -139px;
+            width: 1.08rem;
+            height:  1.2rem;
+        } 
+        .state-bat {
+            margin: 0;
+            padding: .3rem .05rem .3rem .05rem;
+            font-size: .16rem;
+            color: #999999;
+        }
     }
-    .box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 .25rem;
-        padding-top: .1rem;
-        border: 1px solid #eeeded;
-        height: 3.2rem;
-        box-shadow: #eeeded 1px 1px 1px 1px;
-        background-color: #ffffff;
-    }
-    .show-man {
-        background: url(./images/man.png) no-repeat;
-        background-position: -10px -10px;
-        width: 1.08rem;
-        height:  1.2rem;
-    }
-    .show-jack {
-        background: url(./images/man.png) no-repeat;
-        margin-top: -23px;
-        background-position: -10px -278px;
-        width: 1.24rem;
-        height:  1.4rem;
-    }
-    .show-tom {
-        background: url(./images/man.png) no-repeat;
-        margin-top: -29px;
-        background-position: -10px -434px;
-        width: 159px;
-        height:  1.5rem;
-    }
-    .show-tony {
-        background: url(./images/man.png) no-repeat;
-        background-position: -10px -138px;
-        width: 140px;
-        height:  1.2rem;
-    } 
-    .state-bat {
-        margin: 0;
-        padding: 30px 19px;
-        font-size: .16rem;
-        color: #999999;
-    }
-    .man {
-        display: flex;
-        height: 25rem;
-    }
-}
 .circle-dot {
     margin-top: .24rem;
     margin-bottom: .4rem;
@@ -407,8 +398,12 @@ body {
         outline: none;
     }
 }
+.logo {
+    width: 213px;
+    height: auto;
+}
 .logo:hover {
-    box-shadow:  #eeeded 15px 10px 30px 5px;
+    box-shadow: 2px 2px 5px 5px  #eeeded;
     z-index: 1;
 }
 .skip {
@@ -416,11 +411,11 @@ body {
 }
 .link-boss {
     padding-bottom: .1rem;
+    text-align: center;
 }
 .link {
     display: inline-block;
-    margin-bottom: .1rem;
-    width: 1rem;
+    text-align: center;
     font-size: .14rem;
 }
 .link a {
@@ -432,6 +427,7 @@ body {
 }
 .link {
     li {
+        width: 1rem;
         height: 28px;
     }
 }

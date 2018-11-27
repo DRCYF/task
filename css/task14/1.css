@@ -420,7 +420,7 @@ body {
   color: #acacac;
 }
 .link li {
-  width: 1rem;
+  width: 0.9rem;
   height: 28px;
 }
 .link li:hover {

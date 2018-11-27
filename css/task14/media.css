@@ -2,10 +2,6 @@
     .small {
         display:none;
     }
-    .firm {
-        display: flex;
-        align-items: center;
-    }
     .link-boss {
         display: flex;
     }
@@ -14,11 +10,14 @@
     .mix {
         padding: 0 40px;
     }
+    .corp {
+        padding: 35px;
+    }
 }
 @media screen and (min-width: 500px) {
     .link-boss {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
 @media screen and (max-width: 768px) { 

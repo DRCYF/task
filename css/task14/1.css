@@ -396,10 +396,6 @@ body {
   background-color: #29b078;
   outline: none;
 }
-.logo {
-  width: 213px;
-  height: auto;
-}
 .logo:hover {
   box-shadow: 2px 2px 5px 5px  #eeeded;
   z-index: 1;
@@ -424,7 +420,7 @@ body {
   color: #acacac;
 }
 .link li {
-  width: .85rem;
+  width: 1rem;
   height: 28px;
 }
 .link li:hover {

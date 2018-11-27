@@ -1,3 +1,22 @@
+@media screen and (min-width: 992px) { 
+    .inner-left {
+        margin-left: .22rem;
+    }
+    .inner-center {
+        margin: 0 .11rem;
+    }
+    .inner-right {
+        margin-right: .22rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .inner-left {
+        margin-right: .22rem;
+    }
+    .inner-center {
+        margin-left: .22rem;
+    }
+}
 @media screen and (max-width: 768px) { 
     .lump {
         width: 90%;
@@ -7,8 +26,5 @@
     }
     .peer-boss{
         text-align: center;
-    }
-    .inner {
-        margin-right: 0;
     }
 }

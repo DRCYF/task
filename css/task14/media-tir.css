@@ -1,4 +1,13 @@
+@media screen and (min-width: 992px) { 
+
+}
+@media screen and (max-width: 992px) {
+
+}
 @media screen and (max-width: 768px) { 
+    .call {
+        font-size: .12rem;
+    }
     .lump {
         width: 90%;
     }

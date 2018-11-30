@@ -38,6 +38,7 @@ body {
     font-size: .09rem;
 }
 .call {
+    font-size: .14rem;
     color: @head1;
 }
 .size {
@@ -398,9 +399,14 @@ body {
         outline: none;
     }
 }
-.logo {
-    width: 213px;
-    height: auto;
+.corp {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    img {
+        width: 2rem;
+        height: auto;
+    }
 }
 .logo:hover {
     box-shadow: 2px 2px 5px 5px  #eeeded;
@@ -427,7 +433,7 @@ body {
 }
 .link {
     li {
-        width: 1rem;
+        width: .9rem;
         height: 28px;
     }
 }

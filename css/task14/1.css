@@ -33,6 +33,7 @@ body {
   font-size: .09rem;
 }
 .call {
+  font-size: .14rem;
   color: #29b078;
 }
 .size {
@@ -396,14 +397,14 @@ body {
   background-color: #29b078;
   outline: none;
 }
-.logo {
-  position: fixed;
-  text-align: center;
+.corp {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.corp img {
   width: 2rem;
   height: auto;
-}
-.logo img {
-  width: 100%;
 }
 .logo:hover {
   box-shadow: 2px 2px 5px 5px  #eeeded;

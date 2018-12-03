@@ -1,0 +1,39 @@
+html {
+    font-size: 652%;
+}
+body {
+    margin: 0;
+}
+.sud {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: .1rem;
+}
+.sudoku {
+    border-radius: .1rem;
+    margin: 1%;
+    padding-top: 30%;
+    width: 30%;
+    background: #ffa600;
+}
+.cli{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.cli input {
+    margin: .1rem 0;
+    width: 100%;
+    height: .5rem;
+    border-radius: .035rem; 
+    border: 1px solid #ffa600;
+    color: #ffa600;
+    background: #fff;
+    outline: none;
+}
+input:hover {
+    color: #fff;
+    background: #ffa600
+}
